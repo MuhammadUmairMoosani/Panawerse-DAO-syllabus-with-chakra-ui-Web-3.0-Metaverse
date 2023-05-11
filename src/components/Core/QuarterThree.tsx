@@ -24,9 +24,9 @@ export default function QuarterThree() {
                     <Heading fontSize="16" mb="2" >Earn While You Learn Projects</Heading>
                     <OrderedList ml="5">
                         <ListItem fontWeight="bold" mt="2">Build Full-Stack Next.js 13 Jamstack Templates</ListItem>
-                        <Text>You will be assigned to build a template which we will sell on Theme Forest and Panaverse DAO marketplace. The Panaverse DAO will receive 25% share on the sale of the template which will be used to manage the platform. An additional 15% will be spent on marketing the template. 60% of the revenues will be distributed to the developer through the Panaverse DAO in the form of Panaverse tokens. </Text>
+                        <Text lineHeight="2">You will be assigned to build a template which we will sell on Theme Forest and Panaverse DAO marketplace. The Panaverse DAO will receive 25% share on the sale of the template which will be used to manage the platform. An additional 15% will be spent on marketing the template. 60% of the revenues will be distributed to the developer through the Panaverse DAO in the form of Panaverse tokens. </Text>
 
-                        <Text>The Template Standard
+                        <Text lineHeight="2">The Template Standard
                             <NextLink passHref href="https://github.com/panaverse/panaverse-template-standard" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
@@ -34,25 +34,25 @@ export default function QuarterThree() {
                         <ListItem fontWeight="bold" mt="2">
                             Build APIs and Products
                         </ListItem>
-                        <Text>
+                        <Text lineHeight="2">
                             You will be assigned to build APIs for which you will sell subscriptions on the Panaverse DAO Marketplace. The Panaverse DAO will receive 25% share on the sale of the template which will be used to manage the platform. An additional 15% will be spent on marketing the template. 60% of the revenues will be distributed to the developer through the Panaverse DAO in the form of Panaverse tokens.
                         </Text>
                     </OrderedList>
                     <Heading fontSize="16" mb="2" mt="2" >W3-301: Developing Web 3.0 DApps using Solidity, Ethers.js, Hardhat, and Account Abstraction</Heading>
                     <OrderedList ml="5">
                         <ListItem fontWeight="bold" mt="2">Smart Contract Development in Solidity </ListItem>
-                        <Text>Solidity Programming Essentials - Second Edition By Ritesh Modi
+                        <Text lineHeight="2">Solidity Programming Essentials - Second Edition By Ritesh Modi
                             <NextLink passHref href="https://www.packtpub.com/product/solidity-programming-essentials-second-edition/9781803231181" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
-                        <Text>Solidity Learning Repo
+                        <Text lineHeight="2">Solidity Learning Repo
                             <NextLink passHref href="https://github.com/panaverse/learn-nextjs/tree/main/stepxx_web3" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
                         <ListItem fontWeight="bold" mt="2">Dapp Development using Ethers.js and Next.js 13</ListItem>
-                        <Text>Dapp Learning Repo
+                        <Text lineHeight="2">Dapp Learning Repo
                             <NextLink passHref href="https://github.com/panaverse/learn-nextjs/tree/main/stepxx_web3" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
@@ -61,44 +61,44 @@ export default function QuarterThree() {
                     <Heading fontSize="16" mb="2" mt="2" >AI-301: Generative AI Application Development using ChatGPT APIs/Plugins and Amazon’s Bedrock</Heading>
                     <OrderedList ml="5">
                         <ListItem fontWeight="bold" mt="2">Next.js 13 with ChatGPT</ListItem>
-                        <Text>Build a Next JS 13.3 App with Auto ChatGPT Content
+                        <Text lineHeight="2">Build a Next JS 13.3 App with Auto ChatGPT Content
                             <NextLink passHref href="https://www.youtube.com/watch?v=pfHjxyeCHRs" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
-                        <Text>ChatGPT Bot with NEXT.JS 13 and OpenAI API in 10 minutes
+                        <Text lineHeight="2">ChatGPT Bot with NEXT.JS 13 and OpenAI API in 10 minutes
                             <NextLink passHref href="https://www.youtube.com/watch?v=I14_HrJktIs" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
                         <ListItem fontWeight="bold" mt="2">Amazon Bedrock</ListItem>
-                        <Text>The easiest way to build and scale generative AI applications with foundation models (FMs)
+                        <Text lineHeight="2">The easiest way to build and scale generative AI applications with foundation models (FMs)
                             <NextLink passHref href="https://aws.amazon.com/bedrock/" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
                         <ListItem fontWeight="bold" mt="2">Microsoft’s Semantic Kernel SDK</ListItem>
-                        <Text>A bridge between large language models and your code
+                        <Text lineHeight="2">A bridge between large language models and your code
                             <NextLink passHref href="https://aws.amazon.com/bedrock/" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
-                        <Text>Link 1
+                        <Text lineHeight="2">Link 1
                             <NextLink passHref href="https://github.com/microsoft/semantic-kernel" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
-                        <Text>Link 2
+                        <Text lineHeight="2">Link 2
                             <NextLink passHref href="https://learn.microsoft.com/en-us/semantic-kernel/whatissk" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
-                        <Text>Link 3
+                        <Text lineHeight="2">Link 3
                             <NextLink passHref href="https://www.linkedin.com/learning/introducing-semantic-kernel-building-ai-based-apps/introducing-semantic-kernel" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
-                        <Text>Link 4
+                        <Text lineHeight="2">Link 4
                             <NextLink passHref href="https://learn.microsoft.com/en-gb/semantic-kernel/" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>

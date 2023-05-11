@@ -8,7 +8,7 @@ export default function QuarterFive() {
             <h2>
                 <AccordionButton _expanded={{ bg: 'green.400', color: 'white', fontWeight: "bold" }}>
                     <Box as="span" flex='1' textAlign='left'>
-                        Quarter V
+                        Quarter VI
                     </Box>
                     <AccordionIcon />
                 </AccordionButton>

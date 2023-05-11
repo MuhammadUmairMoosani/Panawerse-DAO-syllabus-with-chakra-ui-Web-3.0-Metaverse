@@ -22,30 +22,30 @@ export default function QuarterFour() {
                 </Box>
                 <Box bg="white" p="5" borderRadius="5">
                     <Heading fontSize="16" mb="2" >Course Description:</Heading>
-                    <Text mb="2" ml="5">
+                    <Text lineHeight="2" mb="2" ml="5">
                         Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. The AI and Deep Learning Specialization is a foundational program that will aid in your comprehension of deep learning's potential, difficulties, and effects as well as equip you to take part in the creation of cutting-edge AI technology.
                     </Text>
 
-                    <Text mb="2" ml="5">
+                    <Text lineHeight="2" mb="2" ml="5">
                         We will start this course by understanding the fundamentals and use cases for AI and move on to building next-gen intelligent apps using OpenAI’s powerful models and Next.js 13.
                     </Text>
-                    <Text mb="2" ml="5">
+                    <Text lineHeight="2" mb="2" ml="5">
                         We'll conclude the course by learning about basic programming concepts using Python, such as lists, dictionaries, classes, functions, and loops, and practice writing clean and readable code with exercises for each topic. We'll also learn how to make your programs interactive and how to test your code safely before adding it to a project. It is a fast-paced, thorough introduction to programming with Python 3.10+ that will have you writing programs, solving problems, and making things that work in no time. In this quarter we will also learn Git, the distributed version control system. We will also review Git-based GitHub services.
                     </Text>
                     <Heading fontSize="16" mb="2">Course Outline:</Heading>
                     <OrderedList ml="5">
                         <ListItem fontWeight="bold" mt="2">Introduction to Machine Learning, Data Science, and AI</ListItem>
-                        <Text>AI for Everyone <NextLink passHref href="https://www.coursera.org/learn/ai-for-everyone" target="_blank"><ExternalLinkIcon mx='2px' color="blue.500" /></NextLink></Text>
-                        <Text>AI for Everyone Quiz in Week 3 </Text>
-                        <Text>Total Questions: 60, Total Time: 75 minutes </Text>
-                        <Text>Building Next-Gen Intelligent Apps with OpenAI’s Powerful Models
+                        <Text lineHeight="2">AI for Everyone <NextLink passHref href="https://www.coursera.org/learn/ai-for-everyone" target="_blank"><ExternalLinkIcon mx='2px' color="blue.500" /></NextLink></Text>
+                        <Text lineHeight="2">AI for Everyone Quiz in Week 3 </Text>
+                        <Text lineHeight="2">Total Questions: 60, Total Time: 75 minutes </Text>
+                        <Text lineHeight="2">Building Next-Gen Intelligent Apps with OpenAI’s Powerful Models
                             We will cover GPT-4, ChatGPT, etc. and Next.js 13
                             <NextLink passHref href="https://towardsdatascience.com/gpt-4-is-coming-soon-heres-what-we-know-about-it-64db058cfd45" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </Text>
                         <ListItem fontWeight="bold" mt="2">Python Crash Course  for TypeScript Developers</ListItem>
-                        <Text>Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming 2nd Edition
+                        <Text lineHeight="2">Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming 2nd Edition
                             <NextLink passHref href="https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=sr_1_5" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>

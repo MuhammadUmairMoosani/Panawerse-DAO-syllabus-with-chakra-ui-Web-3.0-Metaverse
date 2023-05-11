@@ -22,10 +22,10 @@ export default function QuarterFour() {
                 </Box>
                 <Box bg="white" p="5" borderRadius="5">
                     <Heading fontSize="16" mb="2" >Course Description:</Heading>
-                    <Text mb="2" ml="5">
+                    <Text lineHeight="2" mb="2" ml="5">
                         This course will focus on learning the basics of the networking and preparing for the new Cisco Certified Network Associate (CCNA) exam. This comprehensive course focuses on the solutions and technologies needed to implement and administer a broad range of modern networking and IT infrastructure.
                     </Text>
-                    <Text mb="2" ml="5">
+                    <Text lineHeight="2" mb="2" ml="5">
                         Textbook:
                         <NextLink passHref href="https://www.amazon.com/CCNA-200-301-Official-Guide-Library/dp/1587147149/ref=sr_1_1" target="_blank">
                             <ExternalLinkIcon mx='2px' color="blue.500" />

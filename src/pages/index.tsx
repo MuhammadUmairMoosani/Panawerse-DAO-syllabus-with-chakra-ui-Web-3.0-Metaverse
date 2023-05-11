@@ -16,6 +16,7 @@ import QuarterFiveIoT from '@/components/IoT/QuarterFive'
 
 import QuarterFourGAI from '@/components/GAI/QuarterFour'
 import QuarterFiveGAI from '@/components/GAI/QuarterFive'
+import QuarterSixGAI from '@/components/GAI/QuarterSix'
 
 import QuarterFourNetwork from '@/components/Network/QuarterFour'
 import QuarterFiveNetwork from '@/components/Network/QuarterFive'
@@ -110,6 +111,9 @@ export default function Home() {
             </AccordionItem>
             <AccordionItem textColor="blackAlpha.700" borderColor="green.400">
               <QuarterFiveGAI />
+            </AccordionItem>
+            <AccordionItem textColor="blackAlpha.700" borderColor="green.400">
+              <QuarterSixGAI />
             </AccordionItem>
           </Accordion>
         </Box>

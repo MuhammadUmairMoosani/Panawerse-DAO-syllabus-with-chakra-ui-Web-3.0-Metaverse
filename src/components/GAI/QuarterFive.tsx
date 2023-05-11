@@ -22,10 +22,10 @@ export default function QuarterFive() {
                 </Box>
                 <Box bg="white" p="5" borderRadius="5">
                     <Heading fontSize="16" mb="2" >Course Description:</Heading>
-                    <Text mb="2" ml="5">
+                    <Text lineHeight="2" mb="2" ml="5">
                         In this course we will discover modern, next-generation sequencing libraries from the powerful Python ecosystem to perform cutting-edge research and analyze large amounts of biological data.
                     </Text>
-                    <Text mb="2" ml="5">
+                    <Text lineHeight="2" mb="2" ml="5">
                         Textbook:
                         <NextLink passHref href="https://www.amazon.com/Bioinformatics-Python-Cookbook-applications-computational/dp/1803236426/ref=sr_1_1" target="_blank">
                             <ExternalLinkIcon mx='2px' color="blue.500" />

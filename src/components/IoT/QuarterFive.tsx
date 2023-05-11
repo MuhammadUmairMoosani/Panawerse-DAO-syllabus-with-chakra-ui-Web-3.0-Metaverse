@@ -22,7 +22,7 @@ export default function QuarterFive() {
                 </Box>
                 <Box bg="white" p="5" borderRadius="5">
                     <Heading fontSize="16" mb="2" >Course Description:</Heading>
-                    <Text mb="2" ml="5">
+                    <Text lineHeight="2" mb="2" ml="5">
                         This is an introductory course about using the C and Rust Programming Languages on "Bare Metal" embedded systems, such as Microcontrollers. We will start by introducing embedded systems and move on to learn the  C++ and Rust programming languages. We'll learn about basic programming concepts using C and Rust, then we will explore key concepts in electronics, microcontrollers, and embedded programming. It is a fast-paced,  thorough introduction to programming with C and Rust that will have you writing programs, solving problems, burning your code on microcontrollers,  playing with GPIOs, and making things that work in no time.
                     </Text>
 
@@ -34,19 +34,19 @@ export default function QuarterFive() {
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>
                         </ListItem>
-                        <Text>What is the Fourth Industrial Revolution? </Text>
-                        <Text>What is IoT?</Text>
-                        <Text>Embedded Systems</Text>
-                        <Text>Hardware and Software for IoT</Text>
-                        <Text>Edge and Cloud Computing </Text>
-                        <Text>The future of IoT is AI </Text>
-                        <Text>Blockchain in the Internet of Things? </Text>
-                        <Text>IoT + AI + Blockchain: The Fourth Industrial Revolution has begun</Text>
-                        <Text>How will Matter change the IoT Infrastructure and address issues</Text>
-                        <Text>Metaverse and IoT</Text>
+                        <Text lineHeight="2">What is the Fourth Industrial Revolution? </Text>
+                        <Text lineHeight="2">What is IoT?</Text>
+                        <Text lineHeight="2">Embedded Systems</Text>
+                        <Text lineHeight="2">Hardware and Software for IoT</Text>
+                        <Text lineHeight="2">Edge and Cloud Computing </Text>
+                        <Text lineHeight="2">The future of IoT is AI </Text>
+                        <Text lineHeight="2">Blockchain in the Internet of Things? </Text>
+                        <Text lineHeight="2">IoT + AI + Blockchain: The Fourth Industrial Revolution has begun</Text>
+                        <Text lineHeight="2">How will Matter change the IoT Infrastructure and address issues</Text>
+                        <Text lineHeight="2">Metaverse and IoT</Text>
 
-                        <Text>Mid-Term I: Introduction to the Internet of Things (IoT) Quiz in Week 3 </Text>
-                        <Text>Total Questions: 46, Total Time: 60 minutes </Text>
+                        <Text lineHeight="2">Mid-Term I: Introduction to the Internet of Things (IoT) Quiz in Week 3 </Text>
+                        <Text lineHeight="2">Total Questions: 46, Total Time: 60 minutes </Text>
 
                         <ListItem fontWeight="bold" mt="2">The C Reference Book: The C programming language
                             Embedded Programming book: Internet of things with ESP8266
@@ -58,9 +58,9 @@ export default function QuarterFive() {
                         <ListItem fontWeight="bold" mt="2">Introduction to C Part 1 (Weeks 3B, 4, and 5)
                         </ListItem>
 
-                        <Text>C environment Setup for (Windows, Linux, and Mac OS systems) </Text>
-                        <Text>Chapters 1-2 of  “The C programming language” </Text>
-                        <UnorderedList>
+                        <Text lineHeight="2">C environment Setup for (Windows, Linux, and Mac OS systems) </Text>
+                        <Text lineHeight="2">Chapters 1-2 of  “The C programming language” </Text>
+                        <UnorderedList lineHeight="2">
                             <ListItem>Variable names types</ListItem>
                             <ListItem>Data types and sizes</ListItem>
                             <ListItem>Constants</ListItem>
@@ -70,27 +70,27 @@ export default function QuarterFive() {
                             <ListItem>Bitwise operators</ListItem>
                             <ListItem>Conditional expressions.</ListItem>
                         </UnorderedList>
-                        <Text>Programming Assignments will also be given.</Text>
+                        <Text lineHeight="2">Programming Assignments will also be given.</Text>
                         <ListItem fontWeight="bold" mt="2"> C Programming Part 2 (Weeks 6 and 7)</ListItem>
-                        <Text>Topics 3 and 4  of  “The C programming language”</Text>
-                        <UnorderedList>
+                        <Text lineHeight="2">Topics 3 and 4  of  “The C programming language”</Text>
+                        <UnorderedList lineHeight="2">
                             <ListItem>Control flow statements (else if, loops, switch, break continue)</ListItem>
                             <ListItem>Function and Program structure(Returning and non-returning, scope rules, Recursion)</ListItem>
                         </UnorderedList>
-                        <Text>Programming Assignments will also be given.</Text>
+                        <Text lineHeight="2">Programming Assignments will also be given.</Text>
                         <ListItem fontWeight="bold" mt="2">Introduction to Embedded systems Part 1 (Weeks 8)</ListItem>
-                        <Text>Basic Electronics and Introduction to microcontrollers </Text>
-                        <Text>Chapter 1 of  “Internet of things with ESP8266”</Text>
-                        <UnorderedList>
+                        <Text lineHeight="2">Basic Electronics and Introduction to microcontrollers </Text>
+                        <Text lineHeight="2">Chapter 1 of  “Internet of things with ESP8266”</Text>
+                        <UnorderedList lineHeight="2">
                             <ListItem>Arduino IDE installation and env setup for ESP8266</ListItem>
                             <ListItem>Burning your first code on ESP8266</ListItem>
                         </UnorderedList>
-                        <Text>Project-based Assignments will also be given. </Text>
-                        <Text>Mid-Term II: C Programming Quiz 1 in Week 9 </Text>
-                        <Text>Total Questions: 62, Total Time: 75 minutes  </Text>
+                        <Text lineHeight="2">Project-based Assignments will also be given. </Text>
+                        <Text lineHeight="2">Mid-Term II: C Programming Quiz 1 in Week 9 </Text>
+                        <Text lineHeight="2">Total Questions: 62, Total Time: 75 minutes  </Text>
                         <ListItem fontWeight="bold" mt="2">Introduction to Embedded systems Part 2 (Weeks 9-12) </ListItem>
-                        <Text>Chapters 2-5 of  “Internet of things with ESP8266” </Text>
-                        <UnorderedList>
+                        <Text lineHeight="2">Chapters 2-5 of  “Internet of things with ESP8266” </Text>
+                        <UnorderedList lineHeight="2">
                             <ListItem>Connecting your hardware to wifi.
                                 <NextLink passHref href="https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/" target="_blank">
                                     <ExternalLinkIcon mx='2px' color="blue.500" />
@@ -163,7 +163,7 @@ export default function QuarterFive() {
                         </ListItem>
 
                         <ListItem>Hardware Requirements:
-                            <OrderedList>
+                            <OrderedList lineHeight="2">
                                 <ListItem>Esp8266 (Node MCU)</ListItem>
                                 <ListItem>Jumper Wires</ListItem>
                                 <ListItem>Bread Board</ListItem>
