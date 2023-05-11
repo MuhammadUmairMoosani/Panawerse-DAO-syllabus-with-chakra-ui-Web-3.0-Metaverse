@@ -16,21 +16,45 @@ export default function QuarterFive() {
             <AccordionPanel>
                 <Box position="relative">
                     <Box bg="green.50" minHeight="100" borderRadius="10" shadow="lg" my="5" color="green.400" fontSize="20" fontWeight="semibold" justifyContent="center" alignItems="center" display="flex">
-                        Bio-361: Bioinformatics with Python
+                        GAI-371: Generative AI in Biology and Healthcare
                     </Box>
                     <Box color="green.400" position="absolute" top="1" right="3" fontSize="16">13 Weeks</Box>
                 </Box>
                 <Box bg="white" p="5" borderRadius="5">
-                    <Heading fontSize="16" mb="2" >Course Description:</Heading>
+
                     <Text mb="2" ml="5">
-                        In this course we will discover modern, next-generation sequencing libraries from the powerful Python ecosystem to perform cutting-edge research and analyze large amounts of biological data.
+                        We will focus on Generative AI:
                     </Text>
+
+
+
+
+
                     <Text mb="2" ml="5">
-                        Textbook:
-                        <NextLink passHref href="https://www.amazon.com/Bioinformatics-Python-Cookbook-applications-computational/dp/1803236426/ref=sr_1_1" target="_blank">
+                        Generative AI in Biology and Healthcare:
+                        <NextLink passHref href="https://youtu.be/NHszJiL-9pM" target="_blank">
                             <ExternalLinkIcon mx='2px' color="blue.500" />
                         </NextLink>
                     </Text>
+
+
+                    <Text mb="2" ml="5">
+                        Accelerate AI-Powered Drug Discovery With NVIDIA BioNeMo
+                        <NextLink passHref href="https://www.youtube.com/watch?v=GNL1z7hnj4w" target="_blank">
+                            <ExternalLinkIcon mx='2px' color="blue.500" />
+                        </NextLink>
+                    </Text>
+
+
+                    <Text mb="2" ml="5">
+                        Generative AI is dreaming up new proteins
+                        <NextLink passHref href="https://cen.acs.org/physical-chemistry/protein-folding/Generative-AI-dreaming-new-proteins/101/i12" target="_blank">
+                            <ExternalLinkIcon mx='2px' color="blue.500" />
+                        </NextLink>
+                    </Text>
+
+
+
                 </Box>
             </AccordionPanel >
         </>
