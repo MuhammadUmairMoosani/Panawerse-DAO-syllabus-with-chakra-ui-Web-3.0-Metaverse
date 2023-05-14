@@ -23,7 +23,7 @@ export default function QuarterFive() {
                 <Box bg="white" p="5" borderRadius="5">
                     <Heading fontSize="16" mb="2" >Course Description:</Heading>
                     <Text lineHeight="2" mb="2" ml="5">
-                        Traditional network management techniques can't be effectively automated and don't scale well. By implementing network programmability based on Application Programming Interfaces, this course will assist in overcoming issues of the future and help you develop the skills required for the Next-Generation Network Engineer.
+                        Traditional network management techniques can&apos;t be effectively automated and don&apos;t scale well. By implementing network programmability based on Application Programming Interfaces, this course will assist in overcoming issues of the future and help you develop the skills required for the Next-Generation Network Engineer.
                     </Text>
                     <Text lineHeight="2" mb="2" ml="5">
                         Textbook:

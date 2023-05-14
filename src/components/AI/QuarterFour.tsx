@@ -23,14 +23,14 @@ export default function QuarterFour() {
                 <Box bg="white" p="5" borderRadius="5">
                     <Heading fontSize="16" mb="2" >Course Description:</Heading>
                     <Text lineHeight="2" mb="2" ml="5">
-                        Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. The AI and Deep Learning Specialization is a foundational program that will aid in your comprehension of deep learning's potential, difficulties, and effects as well as equip you to take part in the creation of cutting-edge AI technology.
+                        Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. The AI and Deep Learning Specialization is a foundational program that will aid in your comprehension of deep learning&apos;s potential, difficulties, and effects as well as equip you to take part in the creation of cutting-edge AI technology.
                     </Text>
 
                     <Text lineHeight="2" mb="2" ml="5">
                         We will start this course by understanding the fundamentals and use cases for AI and move on to building next-gen intelligent apps using OpenAI’s powerful models and Next.js 13.
                     </Text>
                     <Text lineHeight="2" mb="2" ml="5">
-                        We'll conclude the course by learning about basic programming concepts using Python, such as lists, dictionaries, classes, functions, and loops, and practice writing clean and readable code with exercises for each topic. We'll also learn how to make your programs interactive and how to test your code safely before adding it to a project. It is a fast-paced, thorough introduction to programming with Python 3.10+ that will have you writing programs, solving problems, and making things that work in no time. In this quarter we will also learn Git, the distributed version control system. We will also review Git-based GitHub services.
+                        We&apos;ll conclude the course by learning about basic programming concepts using Python, such as lists, dictionaries, classes, functions, and loops, and practice writing clean and readable code with exercises for each topic. We&apos;ll also learn how to make your programs interactive and how to test your code safely before adding it to a project. It is a fast-paced, thorough introduction to programming with Python 3.10+ that will have you writing programs, solving problems, and making things that work in no time. In this quarter we will also learn Git, the distributed version control system. We will also review Git-based GitHub services.
                     </Text>
                     <Heading fontSize="16" mb="2">Course Outline:</Heading>
                     <OrderedList ml="5">

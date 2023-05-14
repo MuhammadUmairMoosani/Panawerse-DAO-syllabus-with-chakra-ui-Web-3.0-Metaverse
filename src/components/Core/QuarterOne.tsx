@@ -55,7 +55,7 @@ export default function QuarterOne() {
                         </Text>
                         <Text lineHeight="2">3D E-commerce</Text>
                         <Text lineHeight="2">First, in our Web 3 and Metaverse program, we are learning to develop Web 1, and Web 2 websites and apps. Later we will learn to develop Web 3 and 3D Commerce templates and experiences. </Text>
-                        <Text lineHeight="2">But we have to start thinking right now. Let's understand what one virtual store builder company is doing the company name is Emperia.
+                        <Text lineHeight="2">But we have to start thinking right now. Let&apos;s understand what one virtual store builder company is doing the company name is Emperia.
                             <NextLink passHref href="https://emperiavr.com/" target="_blank">
                                 <ExternalLinkIcon mx='2px' color="blue.500" />
                             </NextLink>

@@ -75,7 +75,7 @@ export default function Home() {
           </NextLink>
         </Text>
         <Text lineHeight="6" mb="5">
-          Most businesses want to employ these enormous generative language models in developing their apps, but training them costs billions of dollars and takes years, and most businesses don't want to go through that. So what they want to do is work off of a foundational model (FM) that's already big and great and then customize it for their own purposes. We will learn to do exactly that in this course and integrate them into the Internet apps we built. Startup enterprises, particularly those with limited resources, will be able to bring their products to market more rapidly and efficiently with the support of these FMs.
+          Most businesses want to employ these enormous generative language models in developing their apps, but training them costs billions of dollars and takes years, and most businesses don&apos;t want to go through that. So what they want to do is work off of a foundational model (FM) that&apos;s already big and great and then customize it for their own purposes. We will learn to do exactly that in this course and integrate them into the Internet apps we built. Startup enterprises, particularly those with limited resources, will be able to bring their products to market more rapidly and efficiently with the support of these FMs.
           <NextLink passHref href="https://www.technologyreview.com/2023/04/27/1072102/the-future-of-generative-ai-is-niche-not-generalized/" target="_blank">
             <ExternalLinkIcon mx='2px' color="blue.500" />
           </NextLink>
@@ -90,16 +90,16 @@ export default function Home() {
           To summarize this program will teach students how to create cutting-edge Internet apps that are essentially cloud-based and employ Serverless, Edge, CDN, and Event-Driven technologies. They effortlessly integrate Web 3.0, AI, and 3D technology to create applications with revolutionary next-generation capabilities.
         </Text>
         <Text><b>The Essence of the Program: Earn While You Learn</b></Text>
-        <Text lineHeight="6" mb="5">In this brand-new type of curriculum, students will learn how to generate revenue and boost exports in the classroom and will begin doing so within six months of the program's beginning. It resembles a cross between a corporate venture and an educational project.</Text>
+        <Text lineHeight="6" mb="5">In this brand-new type of curriculum, students will learn how to generate revenue and boost exports in the classroom and will begin doing so within six months of the program&apos;s beginning. It resembles a cross between a corporate venture and an educational project.</Text>
         <Text><b>Program of Studies</b></Text>
         <Text lineHeight="6" mb="5">
           This curriculum is intended for beginners who want to learn software development from the ground up. The first three quarters are shared by all specialties and are dedicated to studying Object-Oriented Programming and cutting-edge Full-Stack Web 2.0 development. The program is built on top of the latest
-          <NextLink passHref href="https://www.youtube.com/watch?v=tgpQx3cdVr8" target="_blank">
-            <Text color="blue.500" lineHeight="2" fontWeight="bold">
-              Serverless and Edge computing concepts
-            </Text>
-          </NextLink>
         </Text>
+        <NextLink passHref href="https://www.youtube.com/watch?v=tgpQx3cdVr8" target="_blank">
+          <Text color="blue.500" lineHeight="2" fontWeight="bold">
+            Serverless and Edge computing concepts
+          </Text>
+        </NextLink>
         <Text lineHeight="6" mb="5">
           It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects. To accommodate everyone, courses will be held primarily on weekends or after 6:00 p.m. (Pakistan Time) on weekdays. It employs a hybrid teaching format, with core onsite classes complemented by online Zoom laboratories and recorded videos.
         </Text>
@@ -156,7 +156,6 @@ export default function Home() {
             </AccordionItem>
           </Accordion>
         </Box>
-
         <Heading fontWeight="700" fontSize="28" textColor="gray.800" fontFamily="sans-serif">Ambient Computing and IoT <span style={{ fontSize: 12 }}>( Specializations )</span></Heading>
         <Box padding="10" my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400'>
           <Accordion allowToggle>

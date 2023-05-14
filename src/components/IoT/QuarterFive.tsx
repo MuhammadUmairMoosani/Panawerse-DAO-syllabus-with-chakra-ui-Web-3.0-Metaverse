@@ -23,7 +23,7 @@ export default function QuarterFive() {
                 <Box bg="white" p="5" borderRadius="5">
                     <Heading fontSize="16" mb="2" >Course Description:</Heading>
                     <Text lineHeight="2" mb="2" ml="5">
-                        This is an introductory course about using the C and Rust Programming Languages on "Bare Metal" embedded systems, such as Microcontrollers. We will start by introducing embedded systems and move on to learn the  C++ and Rust programming languages. We'll learn about basic programming concepts using C and Rust, then we will explore key concepts in electronics, microcontrollers, and embedded programming. It is a fast-paced,  thorough introduction to programming with C and Rust that will have you writing programs, solving problems, burning your code on microcontrollers,  playing with GPIOs, and making things that work in no time.
+                        This is an introductory course about using the C and Rust Programming Languages on &quot;Bare Metal&quot; embedded systems, such as Microcontrollers. We will start by introducing embedded systems and move on to learn the  C++ and Rust programming languages. We&apos;ll learn about basic programming concepts using C and Rust, then we will explore key concepts in electronics, microcontrollers, and embedded programming. It is a fast-paced,  thorough introduction to programming with C and Rust that will have you writing programs, solving problems, burning your code on microcontrollers,  playing with GPIOs, and making things that work in no time.
                     </Text>
 
 
