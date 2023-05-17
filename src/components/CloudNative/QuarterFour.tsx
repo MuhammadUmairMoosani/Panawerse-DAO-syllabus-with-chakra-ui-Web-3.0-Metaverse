@@ -15,7 +15,7 @@ export default function QuarterFour() {
             </h2>
             <AccordionPanel>
                 <Box position="relative">
-                    <Box bg="green.50" minHeight="100" borderRadius="10" shadow="lg" my="5" color="green.400" fontSize="20" fontWeight="semibold" justifyContent="center" alignItems="center" display="flex">
+                    <Box bg="green.50" minHeight="100" borderRadius="10" shadow="lg" my="5" color="green.400" fontWeight="semibold" justifyContent="center" alignItems="center" display="flex" textAlign="center" fontSize={[14, 20]} padding={[8, 0]} paddingTop={[8, 0]} paddingBottom={[5, 0]}>
                         CN-351: Certified Kubernetes Application Developer (CKAD)
                     </Box>
                     <Box color="green.400" position="absolute" top="1" right="3" fontSize="16">13 Weeks</Box>

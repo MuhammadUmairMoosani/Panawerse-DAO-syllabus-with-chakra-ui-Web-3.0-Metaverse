@@ -44,7 +44,7 @@ export default function Home() {
         <Image src="/piaic.jpg" width="100" height="100" alt="" />
         <Heading fontWeight="700" fontSize="36" color="green.400" mt="3">PIAIC</Heading>
       </Flex>
-      <Box textAlign="center" mb="5">
+      <Box textAlign="center" mb="5" padding={[10, 0]}>
         <Text lineHeight="2" fontWeight="bold">Presidential Initiative for Artificial Intelligence and Computing (PIAIC)</Text>
         <NextLink passHref href="https://www.piaic.org/" target="_blank" >
           <Text color="blue.500" lineHeight="2" fontWeight="bold">https://www.piaic.org</Text>
@@ -53,15 +53,15 @@ export default function Home() {
         <Text lineHeight="2" fontWeight="bold">18-Month Earn-as-You-Learn Program</Text>
         <Text lineHeight="2" fontWeight="bold">Developing Billion-Dollar Valued Solopreneurs</Text>
       </Box>
-      <Box display="flex" justifyContent="space-evenly" bg="whiteAlpha.200" borderRadius="10" border='2px' borderColor='green.400' p="10" width="1000px" margin="auto">
-        <Box borderRadius="10" overflow="hidden">
+      <Box display="flex" justifyContent="space-evenly" bg="whiteAlpha.200" borderRadius="10" border='2px' borderColor='green.400' p="10" width={["100%", 1000]} margin="auto">
+        <Box borderRadius="10" overflow="hidden" marginRight="5">
           <Image src="/imageOne.jpg" width="400" height="400" alt="" />
         </Box>
-        <Box borderRadius="10" overflow="hidden">
+        <Box borderRadius="10" overflow="hidden" marginLeft="5">
           <Image src="/imageTwo.png" width="400" height="400" alt="" />
         </Box>
       </Box>
-      <Box m="100">
+      <Box m={[10, 100]} textAlign="justify">
         <Text lineHeight="6" mb="5">
           The internet is without a doubt the most important technological development in human history. The rate of technological development is accelerating exponentially. What previously took a decade will now take 6 months or less. Mass adoption of AI,  Web3, and the metaverse is just around the corner. It will expand the internet as we know it by introducing novel features and advancements. The next generation of internet application development will use all aspects of modern technology, including AI, 3D, VR, AR, blockchain, cloud and edge computing, voice computing, ambient computing, and more.
         </Text>
@@ -110,7 +110,7 @@ export default function Home() {
 
       <Box padding="10" >
         <Heading fontWeight="700" fontSize="28" textColor="gray.800" fontFamily="sans-serif">Core Courses <span style={{ fontSize: 12 }}>( Common in All Specializations )</span> </Heading>
-        <Box padding="10" my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400'>
+        <Box padding={[0, 10]} my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400' boxShadow="0px 0px 12px darkgrey">
           <Accordion allowToggle>
             <AccordionItem textColor="blackAlpha.700" borderColor="green.400" >
               <QuarterOne />
@@ -124,7 +124,7 @@ export default function Home() {
           </Accordion>
         </Box>
         <Heading fontWeight="700" fontSize="28" textColor="gray.800" fontFamily="sans-serif">Web 3 and Metaverse <span style={{ fontSize: 12 }}>( Specializations )</span></Heading>
-        <Box padding="10" my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400'>
+        <Box padding={[0, 10]} my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400' boxShadow="0px 0px 12px darkgrey">
           <Accordion allowToggle>
             <AccordionItem textColor="blackAlpha.700" borderColor="green.400">
               <QuarterFourWeb />
@@ -135,7 +135,7 @@ export default function Home() {
           </Accordion>
         </Box>
         <Heading fontWeight="700" fontSize="28" textColor="gray.800" fontFamily="sans-serif">Artificial Intelligence (AI) and Deep Learning <span style={{ fontSize: 12 }}>( Specializations )</span></Heading>
-        <Box padding="10" my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400'>
+        <Box padding={[0, 10]} my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400' boxShadow="0px 0px 12px darkgrey">
           <Accordion allowToggle>
             <AccordionItem textColor="blackAlpha.700" borderColor="green.400">
               <QuarterFourAI />
@@ -146,7 +146,7 @@ export default function Home() {
           </Accordion>
         </Box>
         <Heading fontWeight="700" fontSize="28" textColor="gray.800" fontFamily="sans-serif">Cloud-Native Computing <span style={{ fontSize: 12 }}>( Specializations )</span></Heading>
-        <Box padding="10" my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400'>
+        <Box padding={[0, 10]} my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400' boxShadow="0px 0px 12px darkgrey">
           <Accordion allowToggle>
             <AccordionItem textColor="blackAlpha.700" borderColor="green.400">
               <QuarterFourCN />
@@ -157,7 +157,7 @@ export default function Home() {
           </Accordion>
         </Box>
         <Heading fontWeight="700" fontSize="28" textColor="gray.800" fontFamily="sans-serif">Ambient Computing and IoT <span style={{ fontSize: 12 }}>( Specializations )</span></Heading>
-        <Box padding="10" my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400'>
+        <Box padding={[0, 10]} my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400' boxShadow="0px 0px 12px darkgrey">
           <Accordion allowToggle>
             <AccordionItem textColor="blackAlpha.700" borderColor="green.400">
               <QuarterFourIoT />
@@ -168,7 +168,7 @@ export default function Home() {
           </Accordion>
         </Box>
         <Heading fontWeight="700" fontSize="28" textColor="gray.800" fontFamily="sans-serif">Genomics, Bioinformatics with Generative AI <span style={{ fontSize: 12 }}>( Specializations )</span></Heading>
-        <Box padding="10" my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400'>
+        <Box padding={[0, 10]} my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400' boxShadow="0px 0px 12px darkgrey">
           <Accordion allowToggle>
             <AccordionItem textColor="blackAlpha.700" borderColor="green.400">
               <QuarterFourGAI />
@@ -182,7 +182,7 @@ export default function Home() {
           </Accordion>
         </Box>
         <Heading fontWeight="700" fontSize="28" textColor="gray.800" fontFamily="sans-serif">Network Programmability and Automation <span style={{ fontSize: 12 }}>( Specializations )</span></Heading>
-        <Box padding="10" my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400'>
+        <Box padding={[0, 10]} my="5" bg="whiteAlpha.200" borderRadius="10" border='1px' borderColor='green.400' boxShadow="0px 0px 12px darkgrey">
           <Accordion allowToggle>
             <AccordionItem textColor="blackAlpha.700" borderColor="green.400">
               <QuarterFourNetwork />

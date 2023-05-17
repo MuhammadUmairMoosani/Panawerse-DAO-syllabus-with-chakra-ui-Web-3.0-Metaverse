@@ -14,11 +14,11 @@ export default function QuarterTwo() {
                 </AccordionButton>
             </h2>
             <AccordionPanel>
-                <Box position="relative">
-                    <Box bg="green.50" minHeight="100" borderRadius="10" shadow="lg" my="5" color="green.400" fontSize="20" fontWeight="semibold" justifyContent="center" alignItems="center" display="flex">
+                <Box position="relative"  >
+                    <Box bg="green.50" minHeight="100" borderRadius="10" shadow="lg" my="5" color="green.400" fontWeight="semibold" justifyContent="center" alignItems="center" display="flex" textAlign="center" fontSize={[14, 20]} padding={[0, 0]} paddingTop={[8, 0]} paddingBottom={[5, 0]} >
                         W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Apps and <br /> APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform
                     </Box>
-                    <Box color="green.400" position="absolute" top="1" right="3" fontSize="16">13 Weeks</Box>
+                    <Box color="green.400" position="absolute" top="1" right="3" fontSize="16" >13 Weeks</Box>
                 </Box>
                 <Box bg="white" p="5" borderRadius="5">
                     <Heading fontSize="16" mb="2" >Course Description:</Heading>
